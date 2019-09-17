@@ -149,15 +149,11 @@ body h1 {
     height: 200px;
     background-color: #E5ECF4;
     float: left;
-    margin: 10px;
+    margin: 45px;
 }
 
-.galeri .card .fa {
-    font-size: 150px;
-    color: #8A4FFF;
-    line-height: 200px;
-    /* text-align: center; */
-    padding-left: 30px;
+.galeri .card img {
+    width: 200px;
 }
 
 .galeri .card p {

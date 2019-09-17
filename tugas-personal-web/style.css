@@ -22,7 +22,7 @@ body {
 
 .navbar {
     height: 60px;
-    background-color: rgba(248, 243, 243, 0.8);
+    background-color: rgba(239, 255, 250, 0.9);
     margin: 0;
 }
 
@@ -72,8 +72,17 @@ ul li:hover {
 .sidebar {
     padding-top: 200px;
     width: 300px;
-    /* background-color: bisque; */
+    color: #8A4FFF;
     float: right;
+    font-family: 'comic sans', sans-serif;
+}
+
+.sidebar a .button {
+    display: block;
+}
+
+.sidebar a {
+    text-decoration: none;
 }
 
 .button {
@@ -84,6 +93,7 @@ ul li:hover {
     text-align: center;
     padding: 0px 20px;
     border-radius: 5px;
-    color: white;
+    color: #EFFFFA;
     font-family: arial;
+    font-weight: bold;
 }

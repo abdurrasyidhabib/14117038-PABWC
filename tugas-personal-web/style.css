@@ -1,5 +1,6 @@
 body,
-ul {
+ul,
+i {
     margin: 0;
     padding: 0;
 }
@@ -134,4 +135,33 @@ form {
 body h1 {
     color: #8A4FFF;
     margin-left: 10px;
+}
+
+.galeri {
+    width: 900px;
+    height: 500px;
+    background-color: rgba(138, 79, 255, 0.9);
+    margin: 40px auto;
+}
+
+.galeri .card {
+    width: 200px;
+    height: 200px;
+    background-color: #E5ECF4;
+    float: left;
+    margin: 10px;
+}
+
+.galeri .card .fa {
+    font-size: 150px;
+    color: #8A4FFF;
+    line-height: 200px;
+    /* text-align: center; */
+    padding-left: 30px;
+}
+
+.galeri .card p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }

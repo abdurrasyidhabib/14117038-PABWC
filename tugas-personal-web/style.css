@@ -21,8 +21,8 @@ body {
 }
 
 .navbar {
-    height: 60px;
-    background-color: rgba(239, 255, 250, 0.9);
+    height: 50px;
+    background-color: #EFFFFA;
     margin: 0;
 }
 
@@ -31,19 +31,19 @@ body {
 }
 
 .navbar .brand img {
-    width: 60px;
-    line-height: 60px;
+    width: 50px;
+    line-height: 50px;
     float: left;
 }
 
 .navbar .brand span {
-    line-height: 60px;
+    line-height: 50px;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
-    line-height: 60px;
+    line-height: 50px;
     text-align: center;
 }
 

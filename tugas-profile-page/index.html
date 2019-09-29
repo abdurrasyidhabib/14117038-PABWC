@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="btn">
+    <!-- navbar (navigation bar) -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary fixed-top">
+        <div class="nav-brand">
+            <a href="#home" class="page-scroll">
+                <img src="img/dokuprint.png" alt="logo dokuprint">
+                dokuprint
+            </a>
+        </div>
+        
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+            <ul class="navbar-nav r-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron text-center">
+        <img src="img/habibRounded.JPG" alt="foto habib" class="rounded-circle">
+        <h1>Habib Abdurrasyid</h1>
+        <p>Student | Developer | Designer | Entrepreneur | Internet Addict | Cat Lover</p>
+    </div>
+    <!-- end jumbotron -->
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>About</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row text-left">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <p class="pKiri">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, aliquam doloribus dolorum ratione
+                    aperiam perspiciatis qui quas nisi quos quis nostrum expedita voluptates at magni suscipit ipsam
+                    voluptatum incidunt ipsa.</p>
+            </div>
+
+            <div class="col-sm-5">
+                <p class="pKanan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ut id impedit quo iure amet
+                    necessitatibus omnis a? Magni, sit odit modi nostrum voluptatibus eaque aspernatur quas delectus
+                    ullam error?</p>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2>Portfolio</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <a href="">
+                        <img src="img/dokuprint.jpg" class="img-fluid img-thumbnail" alt="dokuprint">
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <a href="">
+                        <img src="img/linkedin.png" class="img-fluid img-thumbnail" alt="dokuprint">
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <a href="">
+                        <img src="img/android.png" class="img-fluid img-thumbnail" alt="dokuprint">
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <a href="">
+                        <img src="img/Gimana Sih Gaul Ala Islam.png" class="img-fluid img-thumbnail" alt="dokuprint">
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <a href="">
+                        <img src="img/Codekost1.png" class="img-fluid img-thumbnail" alt="dokuprint">
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <a href="">
+                        <img src="img/contohBanner.jpg" class="img-fluid img-thumbnail" alt="dokuprint">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end portfolio -->
+
+    <!-- Contact -->
+    <section>
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2>Contact</h2>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-8 m-sm-auto">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Input your name. . . .">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" class="form-control"
+                                    placeholder="Input your email. . . .">
+                            </div>
+
+                            <select class="form-control">
+                                <option>---choose category---</option>
+                                <option>Programming</option>
+                                <option>Design</option>
+                                <option>Entrepreneur</option>
+                                <option>Hoby</option>
+                                <option>else</option>
+                            </select>
+                            <div class="form-group">
+                                <br>
+                                <label for="message">Message</label>
+                                <textarea rows="10" id="message" class="form-control"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <button type="submit" class="btn-primary form-control">send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Contact -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container bg-secondary">
+            <div class="row">
+                <p class="mx-auto font-weight-light">&copy; copyright 2019 | built by. <a
+                        href="www.instagram.com/habib.abd11" target="_blank">Habib Abdurrasyid</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- akhir footer -->
+    <!-- jQuery (necessery for Bootstrap's Javascript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

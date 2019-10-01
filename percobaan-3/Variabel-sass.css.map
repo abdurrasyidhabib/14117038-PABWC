@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"Variabel-sass.css"}
+{"version":3,"sourceRoot":"","sources":["Variabel-sass.scss"],"names":[],"mappings":"AAIA;EACI,YAJc;EAKd,OAJS;EAOL,YATS;EAUT,eAVS;EAab;EACA;EACA;;AAEA;EACI;EACA,OAjBK","file":"Variabel-sass.css"}

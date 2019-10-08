@@ -2,11 +2,17 @@
 $tigatuju = 37;
 $prima = array();
 
-for ($i = 1; $i < $tigatuju; $i++) {
-  for ($j = 1; $j < array_sum($prima); $j++) {
-    if ($i % array_sum($prima) == 0) {
-      $prima[] = $i;
+for ($i = 2; $i <= $tigatuju; $i++) {
+  $jum = 0;
+  for ($j = 2; $j <= $i; $j++) {
+    // $hasil = $i % $j;
+    // echo "$i % $j = $hasil <br>";
+    if ($i % $j === 0) {
+      $jum++;
     }
+  }
+  if ($jum === 1) {
+    $prima[] = $i;
   }
 }
 

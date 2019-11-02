@@ -1,14 +1,14 @@
 <?php
 $kolom = $_POST['kolom'];
 $cari = $_POST['cari'];
-$conn = mysql_connect("localhost", "root", "", "prak_pabw");
-$hasil = mysql_query($conn, "select * from bukutamu where
+$conn = mysqli_connect("localhost", "root", "", "prak_pabw");
+$hasil = mysqli_query($conn, "select * from bukutamu where
 $kolom like '%$cari%'");
-$jumlah = mysql_num_rows($hasil);
+$jumlah = mysqli_num_rows($hasil);
 echo "<br>";
 echo "Ditemukan: $jumlah";
 echo "<br>";
-while ($baris = mysql_fetch_array($hasil)) {
+while ($baris = mysqli_fetch_array($hasil)) {
   echo "Nama : ";
   echo $baris[0];
   echo "<br>";
